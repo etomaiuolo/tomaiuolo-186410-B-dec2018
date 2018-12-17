@@ -14,6 +14,9 @@ app.get('/', (req, res) => {
     res.json({status: 'ok'})
 })
 
+app.get('/play', (req, res) => {
+    res.json({status: 'ok'})
+})
 
 
 app.listen(PORT, () => console.log('Example app listening on port'+ PORT))
